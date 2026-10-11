@@ -1,0 +1,13 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      # The unit tests only need the lightweight dependencies (no torch / GPU).
+      - run: pip install numpy scikit-learn joblib pytest
+      - run: PYTHONPATH=. pytest -q

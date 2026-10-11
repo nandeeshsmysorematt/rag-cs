@@ -1,0 +1,3 @@
+Aspirin irreversibly inhibits cyclooxygenase (COX) enzymes, which blocks the synthesis of prostaglandins and thromboxane.
+Aspirin's analgesic, anti-inflammatory and antipyretic effects come mainly from COX inhibition and reduced prostaglandin production.
+Low-dose aspirin reduces platelet aggregation by blocking thromboxane A2 production in platelets.

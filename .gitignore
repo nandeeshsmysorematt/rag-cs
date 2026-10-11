@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+# large artifacts: regenerate or host elsewhere
+artifacts/
+indices/
+*.faiss
+offsets.npy
+data/*.tsv
+data/wiki*/
+scores/
+*.joblib
+.DS_Store
